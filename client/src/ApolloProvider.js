@@ -8,7 +8,7 @@ import { setContext } from "@apollo/client/link/context";
 import App from "./App";
 
 const httpLink = createHttpLink({
-  uri: process.env.APOLLO_URI,
+  uri: "https://my-social-web-app.herokuapp.com/",
 });
 
 const authLink = setContext((_, { headers }) => {
