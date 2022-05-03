@@ -29,6 +29,11 @@ The backend was built with Apollo-Server which uses Express.JS behind the scene.
 GraphQL was used for the API, for executing queries on the server-side.
 Authentication was done with Jsonwebtoken and password was encryted with Bcryptjs
 
-# Database
+## Database
 
 The database was setup with MongoDB
+
+## LIVE LINK
+
+The backend is hosted on Heroku and the frontend is hosted on Netlify
+Here is the link to the live site: https://my-social-web-app.netlify.app/
