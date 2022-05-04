@@ -1,19 +1,9 @@
-.recent-header {
-  display: block !important;
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 10px;
-}
-
-.form-input {
-  width: 600px;
-  margin: 15px auto 0;
-}
-
-.form-input h1 {
-  text-align: center;
-}
-
-.post {
+.mobile-nav {
   margin-bottom: 20px !important;
+}
+
+@media (max-width: 899px) {
+  .mobile-nav {
+    margin-bottom: 80px !important;
+  }
 }

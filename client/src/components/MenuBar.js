@@ -44,7 +44,7 @@ const MenuBar = () => {
   };
 
   const menuBar = user ? (
-    <Box sx={{ marginBottom: { sm: "80px", md: "10px" } }}>
+    <div className="mobile-nav">
       <AppBar sx={{ position: { sm: "fixed", md: "static" } }}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
           <Button
@@ -111,9 +111,9 @@ const MenuBar = () => {
           </Box>
         </Toolbar>
       </AppBar>
-    </Box>
+    </div>
   ) : (
-    <Box sx={{ marginBottom: { sm: "80px", md: "10px" } }}>
+    <div className="mobile-nav">
       <AppBar sx={{ position: { sm: "fixed", md: "static" } }}>
         <Toolbar
           sx={{
@@ -183,7 +183,7 @@ const MenuBar = () => {
           </Box>
         </Toolbar>
       </AppBar>
-    </Box>
+    </div>
   );
 
   return menuBar;
